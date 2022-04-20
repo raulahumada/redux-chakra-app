@@ -17,7 +17,7 @@ import {
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import logoLightMode from '../assets/Logo3.png';
 
-const Links = ['Home', 'Projects', 'Team'];
+const Links = ['Home', 'Projects', 'Team', 'Products'];
 
 const NavLink = ({ children }) => (
   <Link

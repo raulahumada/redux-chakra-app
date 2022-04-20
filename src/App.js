@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/Projects';
 import Team from './components/Team';
 import NotFound from './components/NotFound';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/home" component={Users} />
             <Route path="/projects" component={Projects} />
             <Route path="/team" component={Team} />
+            <Route path="/products" component={Products} />
             <Route path="*" exact={true} component={NotFound} />
           </Switch>
         </Router>
