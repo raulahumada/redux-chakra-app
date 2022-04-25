@@ -7,6 +7,8 @@ import Projects from './components/Projects';
 import Team from './components/Team';
 import NotFound from './components/NotFound';
 import Products from './components/Products';
+import '@fontsource/poppins/600.css';
+import '@fontsource/montserrat';
 
 function App() {
   return (
